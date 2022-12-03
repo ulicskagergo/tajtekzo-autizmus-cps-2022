@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EAAddin_ExportSenML", "EAAddin_StateMachineExport\EAAddin_ExportSenML.csproj", "{33022805-2A10-4D97-B5C4-82EF8217598F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33022805-2A10-4D97-B5C4-82EF8217598F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33022805-2A10-4D97-B5C4-82EF8217598F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33022805-2A10-4D97-B5C4-82EF8217598F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33022805-2A10-4D97-B5C4-82EF8217598F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A708D99-E533-4128-8007-2EE18CCCFD22}
+	EndGlobalSection
+EndGlobal

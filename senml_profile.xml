@@ -1,0 +1,35 @@
+<?xml  version='1.0' encoding='windows-1252' ?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="5883FA23-F" name="SenML" version="1.0" notes="UML profile for defining sensors"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="sensor" metatype="sensor" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="URL" type="char" description="" unit="" values="" default="http://localhost:8086"/>
+					<Tag name="Token" type="char" description="" unit="" values="" default="&lt;INSERT TOKEN HERE&gt;"/>
+					<Tag name="Org" type="char" description="" unit="" values="" default="organization"/>
+					<Tag name="Bucket" type="char" description="" unit="" values="" default=""/>
+					<Tag name="WriteOptions" type="enumeration" description="" unit="" values="SYNCHRONOUS,ASYNCHRONOUS" default="SYNCHRONOUS"/>
+					<Tag name="MinValue" type="float" description="" unit="" values="" default="0"/>
+					<Tag name="MaxValue" type="float" description="" unit="" values="" default="100"/>
+					<Tag name="Sleep" type="float" description="" unit="" values="" default="2"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="system" metatype="system" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+		<ViewDefinitions/>
+		<Metamodel/>
+	</Content>
+</UMLProfile>
