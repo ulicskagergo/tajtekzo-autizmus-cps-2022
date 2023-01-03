@@ -76,7 +76,7 @@ while True:
     sleep({sleep})";
         }
 
-        public void WriteToTextBox(string msg)
+        public void WriteToTextBox(string msg) 
         {
             tb.AppendText(msg);
             tb.Update();
